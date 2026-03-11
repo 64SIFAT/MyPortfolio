@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.hero-img img {
+  width: 280px;
+  border-radius: 20px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.hero-text span {
+  color: #22c55e;
+}
+
+.hero-text h2 {
+  color: #cbd5f5;
+}
+
+.hero-text p {
+  max-width: 450px;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #22c55e;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+section {
+  padding: 80px 10%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background: #1e293b;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.exp-box,
+.edu-box {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
